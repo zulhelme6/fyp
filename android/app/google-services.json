@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "365424992066",
+    "project_id": "fyp-project-haifma",
+    "storage_bucket": "fyp-project-haifma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365424992066:android:307465c5d0218642b8f2db",
+        "android_client_info": {
+          "package_name": ""
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365424992066-0224oddr84a02cbled6lgpklukslonhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJcBGzK15UQbbQkVK0Uz13eSREyleOP88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365424992066-0224oddr84a02cbled6lgpklukslonhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365424992066:android:51d231d8118c31a3b8f2db",
+        "android_client_info": {
+          "package_name": "com.csp650.haifma_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365424992066-0224oddr84a02cbled6lgpklukslonhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJcBGzK15UQbbQkVK0Uz13eSREyleOP88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365424992066-0224oddr84a02cbled6lgpklukslonhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
