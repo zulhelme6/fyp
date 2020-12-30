@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:haifma_v2/models/user.dart';
 import 'package:haifma_v2/screens/Wrapper.dart';
+import 'package:haifma_v2/services/authservice.dart';
+import 'package:provider/provider.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -9,9 +13,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Wrapper() ,
-
+    return StreamProvider<User>.value(
+      value: AuthService().user,
+      child:  MaterialApp(
+        home: Wrapper() ,
+    )
 
     );
   }
